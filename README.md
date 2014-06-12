@@ -1,4 +1,4 @@
-CV_MaxZils
+CV MaxZils
 ==========
 
 My personal CV -- Used both as a CV and a demonstration of my coding abilities
