@@ -10,7 +10,9 @@ My personal CV -- Used both as a CV and a demonstration of my coding abilities
     ->navigataur.css -- the menu styles for the page, includes mobile functionality<br>
   /img<br>
     ->linkedin-256.png -- linkedin logo<br>
-    ->trans_fb.png     -- 
+    ->trans_fb.png     -- facebopok logo <br>
+  /files<br>
+    -> 
     
   
 #External Resources:

@@ -11,12 +11,10 @@
     <meta name="description" content="CV: Max-Andre Zils">
     <meta name="keywords" content="CV: Max-Andre Zils">
     <meta name="viewport" content="width=device-width">
-  </head>
-  <!--TODO: add links section -->
+  </head><!--  =================== End of head section =================== -->
   <body>
     <a name="top"></a><!--===================== Link to the top of the page ========================-->
     <!-- HEADER SECTION -->
-
     <div class="head_div">
       Curriculum Vitae: Max-Andr&eacute; Zils
       <span id="menu_download"><a href="files/Cirriculum%20Vitae%20Max-Andre%20Zils.pdf" target="_blank">&dArr;</a>   </span> 
@@ -42,7 +40,7 @@
             <td align=center>
             <div class="img-wrapper">
               <a href="https://www.facebook.com/maxandre.zils?ref=tn_tnmn" target="_blank">
-                <img src="img/trans_fb.png" class="scale-image" width="20px" height="40px" alt="Link to max-andre' zils' facebook page">
+                <img src="img/facebookLogo.png" class="scale-image" width="20px" height="40px" alt="Link to max-andre' zils' facebook page">
               </a>
             </div>    
           </td>
@@ -50,14 +48,13 @@
         </tbody>  
       </table>
       <hr>
-    </div>
-
+    </div><!--  =================== End of banner =================== -->
     <!-- END OF HEADER -->
     <div class="header">
     <div class="nav">			
       <input type="checkbox" id="toggle">
       <div id="men_nav">
-        <label for="toggle" class="toggle" data-open="&equiv;" data-close="X" onclick></label>
+      <label for="toggle" class="toggle" data-open="&equiv;" data-close="X" onclick></label>
         <ul class="menu">
           <li><a href="#personal">Personal</a></li>
           <li><a href="#experience">Experience</a></li>     
@@ -66,19 +63,20 @@
           <li><a href="#skills">Skills</a></li>
           <li><a href="#extra_mural">Extra Mural</a></li>
           <li><a href="#eq_iq">EQ and IQ</a></li>
-          <li><a href="#images">Images</a></li>
+          <li><a href="#goals">Goals</a></li>
           <li><a href="#site_details">Site Details</a></li>  
         </ul>
-      </div>
+         </div>
     </div>
+
     <hr>  
-</div>    
+</div><!--  =================== End of menu_section =================== -->
     <!--MAIN BODY-->   
     <br><br>
     <!-- PERSONAL DETAILS -->
-    <div id="article">
-      <header>Personal Details</header>
-      <div id="article_main">
+    <div class="article">
+        <a name="personal"><header>Personal Details</header></a>
+      <div class="article_main">
         <table><!-- LIST OF PERSONAL DETAILS -->
           <tr> <td>Full Name</td>          <td>:</td> <td>Max-Andr&eacute; Christopher Zils</td></tr>
           <tr> <td>Gender</td>             <td>:</td> <td>Male</td></tr>
@@ -95,48 +93,45 @@
     </div><!--  =================== End of personal =================== -->
     <br>
     <!-- EXPERIENCE -->
-    <div id="article">
-      <header>Experience</header>    
-      <div id="article_main">
+    <div class="article">
+      <a name="experience"><header>Experience</header></a>
+      <div class="article_main">
         <ol>
           <li>
             Company : 
-            <a href="http://www.liquorice.co.za/" target="_blank" class="tooltip">
-              Liquorice<span>Digital Marketing Agency</span>
-            </a><br>
+            <a href="http://www.liquorice.co.za/" target="_blank" class="tooltip" class="article_a">Liquorice</a><br>
             Position : Junior Test Analyst.<br>
-            Responsiblities: <br>
-            Skills:         <br>
-            Duration:       <br>
+            Responsiblities: {content}<br>
+            Skills:         {content}<br>
+            Duration:      {content} <br>
             Reference: 
           </li>
           <br>
           <li>
-            Company : <a href="http://www.uwc.ac.za/Pages/default.aspx" target="_blank">University of the Western Cape</a><br>
+            Company : <a href="http://www.uwc.ac.za/Pages/default.aspx" target="_blank" class="article_a">University of the Western Cape</a><br>
             Position : Lecturer's Assistant and Tutor<br>
             Responsiblities:<br>
-            Skills:         <br>
-            Duration:       <br>
+            Skills:         {content}<br>
+            Duration:       {content}<br>
             Reference: 
           </li>
           <br>
           <li>
-            Company : <a href="http://www.uwc.ac.za/Pages/default.aspx" target="_blank">University of the Western Cape</a><br>
+            Company : <a href="http://www.uwc.ac.za/Pages/default.aspx" target="_blank" class="article_a">University of the Western Cape</a><br>
             Position : Tutor for HTML, CSS and JavaScript.<br>
-            Responsiblities:<br>
-            Skills:         <br>
-            Duration:       <br>
+            Responsiblities:{content}<br>
+            Skills:        {content} <br>
+            Duration:      {content} <br>
             Reference: 
           </li>
         </ol>    
       </div>  
     </div><!--  =================== End of experience =================== -->
     <br>
-    <div id="article">
-      <header>
-        Programming Languages:   
-      </header> 
-      <div id="article_main">
+    <!-- PROGRAMMING -->
+    <div class="article">
+      <a name="programming"><header>Programming Languages</header></a>
+      <div class="article_main">
         <br>
         <ul>
           <li>
@@ -167,16 +162,17 @@
           <li>
             <b>Additional Skills</b>
             <ul>
-              <li>Database Modelling, UX, Interface Design, XML, CMS(Drupal, Joomla, Wordpress)</li>
+              <li>Database Modelling, UX, Interface Design, XML, CMS(Drupal, Joomla, Wordpress), LAMP, XAMP.</li>
             </ul>
           </li>
         </ul>
       </div>
     </div><!--  =================== End of programming =================== -->
     <br>
-    <div id="article">
-      <header>Education:</header>
-      <div id="article_main">
+    <!-- EDUCATION -->
+    <div class="article">
+      <a name="education"><header>Education:</header></a>
+      <div class="article_main">
       <ul><li><span id="bold_td">Tertiary Education:</span>
               <table>
           <tr>
@@ -199,15 +195,63 @@
 
       </div>    
     </div><!--  =================== End of education =================== -->
-    
-
+    <br>
+    <!-- SKILLS -->
+    <div class="article">
+        <a name="skills"><header>Skills</header></a>
+      <div class="article_main">
+        {
+          content
+        }
+      </div>
+    </div><!--  =================== End of skills =================== -->
+    <br>
+    <!-- EXTRA MURAL -->
+    <div class="article">
+        <a name="extra_mural"><header>Extra Mural</header></a>
+      <div class="article_main">
+        {
+          content
+        }
+      </div>
+    </div><!--  =================== End of extra_mural =================== -->
+    <br>
+    <!-- EQ AND IQ -->
+    <div class="article">
+        <a name="eq_iq"><header>EQ and IQ</header></a>
+      <div class="article_main">
+        {
+          content
+        }
+      </div>
+    </div><!--  =================== End of eq_iq =================== -->
+    <br>
+    <!-- GOALS -->
+    <div class="article">
+        <a name="goals"><header>Goals</header></a>
+      <div class="article_main">
+        {
+          content
+        }
+      </div>
+    </div><!--  =================== End of images =================== -->
+    <br>
+    <!-- SITE DETAILS -->
+    <div class="article">
+        <a name="site_details"><header>Site Details</header></a>
+      <div class="article_main">
+        {
+          content
+        }
+      </div>
+    </div><!--  =================== End of site_details =================== -->
 
     <!-- BACK TO TOP -->
     <div id="back_to_top"><a href="#top">&uarr;</a></div>
     <!-- BACK TO TOP -->
-    
+    <br>
     <footer>
-        
+      Magnum Opus Productions  | 2014
     </footer>
   </body>
 </html>

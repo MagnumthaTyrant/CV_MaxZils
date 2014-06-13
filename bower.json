@@ -1,0 +1,29 @@
+{
+  "name": "CV_MaxZils",
+  "version": "1.0.0",
+  "homepage": "https://github.com/MagnumthaTyrant/CV_MaxZils",
+  "authors": [
+    "magnumthatyrant <max@liquorice.co.za>"
+  ],
+  "description": "my personal CV",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "CV",
+    "Max-Andre",
+    "Zils"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "css-modal": "~1.1.6"
+  }
+}
