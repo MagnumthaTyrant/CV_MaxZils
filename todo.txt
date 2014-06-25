@@ -1,0 +1,19 @@
+TODO:
+  2. Menu:
+      -> Center the items on the menu
+      -> Collapse the Mobile Menu when an item is clicked
+  3. Content:
+      -> add content to the various empty sections 
+      -> take the correct IQ and EQ tests and add to the IQ andf EQ sections
+  
+  
+  DONE:
+    Liquorice link no longer white
+    4. Images:
+      -> Modal for images -- Done
+      -> Find Location for images on the site -- done 
+      -> build a working carousel that works accross browsers and platforms done
+    5. Implement Slick    -- done
+    1. Update my CV.pdf  -- done
+     -> add to the files folder -- done
+    4. Get Images

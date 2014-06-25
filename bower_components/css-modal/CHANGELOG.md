@@ -2,6 +2,13 @@
 
 ## HEAD
 
+## 1.1.8 - 20.06.2014
+* Use innerHTML instead of innerText in order to add styling rule
+
+## 1.1.7 - 20.06.2014
+* Add document.createEvent for creating events in oldIE
+* Make _injectStyles compatible with legacy browsers
+
 ## 1.1.6 - 06.06.2014
 * Fix position of close button on small screens
 * Check if activeElement is available in max-width

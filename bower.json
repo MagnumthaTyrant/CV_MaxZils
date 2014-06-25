@@ -5,7 +5,7 @@
   "authors": [
     "magnumthatyrant <max@liquorice.co.za>"
   ],
-  "description": "my personal CV",
+  "description": "My personal CV",
   "main": "index.html",
   "moduleType": [
     "node"

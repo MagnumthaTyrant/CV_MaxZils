@@ -19,8 +19,8 @@
  Functional Styles (Required)
 ---------------------------------*/
 
-.header { position: relative; }
-#toggle, .toggle { display: none; margin:0;}
+.header { margin: auto; }
+#toggle, .toggle { display: none; margin:auto;}
 .menu > li { list-style: none; float:left;	}
 
 /* Nicolas Gallagher micro clearfix */
