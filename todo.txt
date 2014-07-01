@@ -1,10 +1,15 @@
-TODO:
+file:///C:/Users/max/Documents/GitHub/CV_MaxZils/index.htmlTODO:
   2. Menu:
       -> Center the items on the menu
       -> Collapse the Mobile Menu when an item is clicked
   3. Content:
       -> add content to the various empty sections 
       -> take the correct IQ and EQ tests and add to the IQ andf EQ sections
+  4. Github:
+      -> add git repo to footer
+  5. Favicon    
+  6. Fix div headers border radius
+  7. fix carousel in firefox & IE -- add css to body
   
   
   DONE:

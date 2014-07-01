@@ -1,6 +1,10 @@
 *{margin: 0;}
 
-
+body {
+     height:100%;
+     margin:0;
+     padding:0;
+}
 .head_div{
     background-image: url(../img/11_image.jpg);
     outline-color: #181818;
@@ -88,7 +92,7 @@ a.tooltip span{
     background-image: url(../img/11_image.jpg);
     color: white;
     border-top-left-radius: 1em; 
-    border-top-right-radius: 1em;
+    border-top-right-radius:1em;
     padding-bottom: 10px;
 }
 .article_main {
@@ -237,6 +241,11 @@ footer {
   color: blue;
   font-family: 'Peytone One';
   }
+#close_modal:hover{
+    size: 110%;
+    color: white;
+    background-color: blue;
+}
 .modal_image {
   width: 200px;
   height: 200px;
